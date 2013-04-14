@@ -1,0 +1,375 @@
+/*------------------------ 
+  Project: Head First Lounge
+  URL: http://www.roberttayco.com/grc275/a3/
+  Design: Robert Tayco
+------------------------*/
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* clearfix */
+.cf:before, .cf:after {
+  content: "";
+  display: table; }
+.cf:after {
+  clear: both; }
+
+/* for IE6/7 */
+.cf {
+  *zoom: 1; }
+
+/* img replacement */
+.ir {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent; }
+
+::selection {
+  background: #2b2823;
+  color: #fdfcfa; }
+
+html {
+  overflow-y: scroll; }
+
+/* Links
+======================== */
+a, a:link {
+  background: #2b2823;
+  color: #dddad6;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 3px 6px 0;
+  text-decoration: none; }
+
+a:visited {
+  color: #5c7496; }
+
+a:hover, a:active {
+  color: #fdfcfa; }
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid transparent;
+  border-left: 1em solid #2b2823; }
+
+/* Typography
+======================== */
+body {
+  background: url(../img/bg-floral.jpg) repeat-x, url(../img/lightpaperfibers.png) repeat;
+  color: #444;
+  font-family: "Sorts Mill Goudy", baskerville, palatino, serif;
+  font-size: 18px;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2b2823;
+  font-family: "Open Sans", "helvetica neue", "arial black", sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1.2; }
+
+h1, h2, h3 {
+  margin-bottom: .5em;
+  text-transform: uppercase; }
+
+h4, h5, h6 {
+  margin-bottom: .25em; }
+
+h1 {
+  font-size: 2.25em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.75em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.25em; }
+
+h6 {
+  font-size: 1em; }
+
+p {
+  font-size: 1em;
+  margin-bottom: 1em; }
+
+abbr {
+  cursor: help; }
+
+strong {
+  font-family: "Open Sans", "helvetica neue", "arial black", sans-serif;
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+code, pre {
+  font-family: inconsolata, monaco, monospace; }
+
+.hide {
+  display: none; }
+
+.huge {
+  font-size: 2.7em; }
+
+.big {
+  font-size: 1.5em;
+  line-height: 1; }
+
+.small {
+  font-size: .85em; }
+
+.headline {
+  font-family: "Open Sans", "helvetica neue", "arial black", sans-serif;
+  margin-bottom: .25em;
+  text-align: center;
+  text-shadow: -1px 1px 0 #fdfcfa, -2px 2px 0 #c6c2ba, -3px 2px 0 #c6c2ba; }
+
+.end-swords {
+  background: url(../img/swords.svg) bottom no-repeat;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em; }
+
+.end-flourish {
+  background: url(../img/flourish1.svg) bottom no-repeat;
+  margin-top: 3em;
+  padding-bottom: 2.75em; }
+
+.run-in {
+  color: #2b2823;
+  font-family: "Open Sans", "helvetica neue", "arial black", sans-serif;
+  font-size: .9em;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-transform: uppercase; }
+
+/* Layout
+=======================- */
+/* Grid
+======================== */
+.columns, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  margin: 0 2.5% 1em; }
+
+.col-1 {
+  width: 3.33333%; }
+
+.col-2 {
+  width: 11.66667%; }
+
+.col-3 {
+  width: 20%; }
+
+.col-4 {
+  width: 28.33333%; }
+
+.col-5 {
+  width: 36.66667%; }
+
+.col-6 {
+  width: 45%; }
+
+.col-7 {
+  width: 53.33333%; }
+
+.col-8 {
+  width: 61.66667%; }
+
+.col-9 {
+  width: 70%; }
+
+.col-10 {
+  width: 78.33333%; }
+
+.col-11 {
+  width: 86.66667%; }
+
+.col-12 {
+  width: 95%; }
+
+header.logo {
+  margin: 85px auto 3em; }
+header.logo h1 {
+  background: url(../img/logo_headfirst.svg) center no-repeat transparent;
+  height: 120px; }
+
+.content {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 615px;
+  max-width: 1024px; }
+  .content.main {
+    background: url(../img/lightpaperfibers.png) repeat;
+    padding-bottom: 155px; }
+
+.center {
+  text-align: center; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+#menu .main img {
+  background: #fdfcfa;
+  border-bottom: 1px solid white;
+  border-radius: 4px;
+  box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  width: 100%; }
+
+#menu h4.headline {
+  border-bottom: 2px solid #2b2823;
+  margin-bottom: .5em;
+  padding-bottom: .5em; }
+
+#main section {
+  margin-bottom: 2em; }
+
+/* Nav
+========================== */
+nav {
+  background: url(../img/dark_wall.png);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  font-family: "Sorts Mill Goudy", baskerville, palatino, serif;
+  font-size: .85em;
+  font-style: italic;
+  letter-spacing: 1px;
+  position: fixed;
+  text-transform: capitalize;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 600px; }
+    nav ul li {
+      border-right: 1px solid #666666;
+      float: left;
+      height: 24px;
+      text-align: center;
+      width: 30%; }
+      nav ul li:first-child {
+        background: url(../img/logo_cup_white.svg) center no-repeat;
+        height: 24px;
+        padding: 0;
+        width: 10%; }
+        nav ul li:first-child a {
+          display: block;
+          height: 100%;
+          width: 100%; }
+      nav ul li:last-child {
+        border: 0; }
+      nav ul li a, nav ul li a:link {
+        background: none;
+        border: 0;
+        color: #fdfcfa;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 3px; }
+        nav ul li a:visited, nav ul li a:link:visited {
+          color: #fdfcfa; }
+        nav ul li a:hover, nav ul li a:link:hover {
+          color: #fff; }
+
+iframe.gmap {
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.15);
+  height: 500px;
+  margin-bottom: 2em;
+  padding: 10px; }
+
+.video iframe {
+  height: 300px;
+  margin-bottom: .5em;
+  width: 100%; }
+
+/* Footer
+===========================*/
+/* Sticky Footer */
+html, body {
+  height: 100%; }
+
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px; }
+
+.push, footer {
+  height: 60px; }
+
+footer {
+  background: url(../img/dark_wall.png) #2b2823;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
+  color: #fdfcfa;
+  font-size: .85em;
+  position: relative; }
+  footer #fixed-img {
+    background: url(../img/cappuccino.png) center no-repeat;
+    bottom: 21px;
+    height: 179px;
+    left: 66%;
+    position: absolute;
+    width: 250px; }
+
+.copyright {
+  color: #7f7668;
+  font-style: italic;
+  padding-top: 1.3em;
+  font-size: .85em; }
+  .copyright li {
+    border-right: 1px solid #47423a;
+    display: block;
+    float: left;
+    margin-right: 2em;
+    padding-right: 2em; }
+    .copyright li:last-child {
+      border: 0;
+      margin-right: 0;
+      padding-right: 0; }
