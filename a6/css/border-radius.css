@@ -1,0 +1,12 @@
+/* border-radius
+======================= */
+/* line 4, ../sass/border-radius.scss */
+body, h4 {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px; }
+
+/* line 8, ../sass/border-radius.scss */
+h4 {
+  background: #f0f0f0;
+  color: #880000;
+  padding: 1em; }

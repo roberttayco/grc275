@@ -1,0 +1,12 @@
+/* Fixed Positioning
+======================= */
+/* line 4, ../sass/fixed.scss */
+p {
+  width: 60%; }
+
+/* line 5, ../sass/fixed.scss */
+.pinned {
+  position: fixed;
+  right: 60px;
+  top: 60px;
+  width: 30%; }

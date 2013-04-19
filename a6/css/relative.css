@@ -1,0 +1,17 @@
+/* Relative Positioning
+======================= */
+/* line 3, ../sass/relative.scss */
+p {
+  width: 60%; }
+
+/* line 5, ../sass/relative.scss */
+.shift-right, .shift-left {
+  position: relative; }
+
+/* line 6, ../sass/relative.scss */
+.shift-right {
+  left: 20%; }
+
+/* line 7, ../sass/relative.scss */
+.shift-left {
+  right: 10%; }

@@ -1,0 +1,12 @@
+/* Absolute Positioning
+======================= */
+/* line 3, ../sass/absolute.scss */
+p {
+  width: 60%; }
+
+/* line 4, ../sass/absolute.scss */
+.pinned {
+  position: absolute;
+  right: 60px;
+  top: 60px;
+  width: 30%; }

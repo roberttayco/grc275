@@ -1,0 +1,11 @@
+/* Overflow
+======================= */
+/* line 4, ../sass/overflow.scss */
+.scrollbox {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 70%;
+  height: 15em;
+  overflow: scroll; }
