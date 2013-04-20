@@ -1,0 +1,13 @@
+/* box model
+======================= */
+p {
+  width: 60%;
+}
+
+p, img {
+  background: #a9fee9;
+  border: 8px solid #02a67d;
+  display: block;
+  margin: 2em auto;
+  padding: 2em;
+}
