@@ -1,0 +1,37 @@
+/* Legend
+======================= */
+/* line 4, ../sass/legend.scss */
+form div {
+  margin-bottom: 1em; }
+
+/* line 5, ../sass/legend.scss */
+fieldset {
+  padding: 1.5em; }
+
+/* line 6, ../sass/legend.scss */
+legend {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+/* line 10, ../sass/legend.scss */
+label {
+  display: inline-block;
+  margin-right: 1em;
+  text-align: right;
+  width: 8em; }
+
+/* line 16, ../sass/legend.scss */
+input {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 0.5em 0.75em; }
+  /* line 21, ../sass/legend.scss */
+  input[type=email], input[type=password] {
+    width: 20em; }
+  /* line 23, ../sass/legend.scss */
+  input[type=submit] {
+    background: #880000;
+    color: #f9f9f9;
+    font-size: .85em;
+    position: relative;
+    left: 30em; }

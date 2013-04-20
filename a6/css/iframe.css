@@ -1,0 +1,8 @@
+/* iframe
+======================= */
+/* line 4, ../sass/iframe.scss */
+iframe {
+  border: 1px solid #e0e0e0;
+  padding: 1em;
+  height: 480px;
+  width: 100%; }

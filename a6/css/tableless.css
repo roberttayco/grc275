@@ -1,23 +1,15 @@
 /* Tableless Layout
 ======================= */
 /* line 4, ../sass/tableless.scss */
-.gigantic {
-  border-bottom: 1px solid #e0e0e0;
-  font-size: 3em;
-  line-height: 1.2;
-  padding-bottom: 1em;
-  text-align: center; }
-
-/* line 11, ../sass/tableless.scss */
 .col-3 {
   float: left;
   margin-left: 2%;
   width: 32%; }
-  /* line 15, ../sass/tableless.scss */
+  /* line 8, ../sass/tableless.scss */
   .col-3:first-child {
     margin-left: 0; }
 
-/* line 17, ../sass/tableless.scss */
+/* line 10, ../sass/tableless.scss */
 footer {
   border-top: 1px solid #e0e0e0;
   font-size: .85em;
