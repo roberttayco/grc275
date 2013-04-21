@@ -187,7 +187,7 @@
 			"file": "relative.html",
 			"settings":
 			{
-				"buffer_size": 1057,
+				"buffer_size": 1107,
 				"line_ending": "Unix"
 			}
 		},
@@ -195,7 +195,7 @@
 			"file": "z-index.html",
 			"settings":
 			{
-				"buffer_size": 358,
+				"buffer_size": 407,
 				"line_ending": "Unix"
 			}
 		},
@@ -203,7 +203,15 @@
 			"file": "overflow.html",
 			"settings":
 			{
-				"buffer_size": 1604,
+				"buffer_size": 1637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "block-and-inline.html",
+			"settings":
+			{
+				"buffer_size": 1226,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,15 +219,31 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 1433,
+				"buffer_size": 1368,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/_overflow.scss",
+			"file": "sass/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/overflow.scss",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/block-and-inline.scss",
+			"settings":
+			{
+				"buffer_size": 294,
 				"line_ending": "Unix"
 			}
 		}
@@ -284,6 +308,14 @@
 	},
 	"file_history":
 	[
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/border-radius.scss",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/box-model.html",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/box-model.scss",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/border-radius.html",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/_border-radius.scss",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/overflow.scss",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/z-index.scss",
+		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/relative.scss",
 		"/Users/roberttayco/Dropbox/School/grc_275/a6/index.html",
 		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/_z-index.scss",
 		"/Users/roberttayco/Dropbox/School/grc_275/a6/sass/_absolute.scss",
@@ -360,6 +392,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"block",
 			"ir",
 			"image",
 			"body",
@@ -486,8 +519,7 @@
 			"elixi",
 			"section",
 			"h6",
-			"decaf",
-			"div"
+			"decaf"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -505,7 +537,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -513,15 +545,15 @@
 					"file": "relative.html",
 					"settings":
 					{
-						"buffer_size": 1057,
+						"buffer_size": 1107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								142,
+								142
 							]
 						],
 						"settings":
@@ -582,15 +614,15 @@
 					"file": "z-index.html",
 					"settings":
 					{
-						"buffer_size": 358,
+						"buffer_size": 407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								85,
+								85
 							]
 						],
 						"settings":
@@ -651,15 +683,15 @@
 					"file": "overflow.html",
 					"settings":
 					{
-						"buffer_size": 1604,
+						"buffer_size": 1637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								200,
+								200
 							]
 						],
 						"settings":
@@ -714,27 +746,98 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 3,
-					"file": "sass/style.scss",
+					"file": "block-and-inline.html",
 					"settings":
 					{
-						"buffer_size": 1433,
+						"buffer_size": 1226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1108,
-								1108
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -787,29 +890,168 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 530.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "sass/_overflow.scss",
+					"buffer": 5,
+					"file": "sass/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								166,
-								166
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/overflow.scss",
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/block-and-inline.scss",
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
 								"bh_regex",
@@ -913,6 +1155,34 @@
 		"selected_items":
 		[
 			[
+				"block",
+				"sass/block-and-inline.scss"
+			],
+			[
+				"box",
+				"sass/box-model.scss"
+			],
+			[
+				"border",
+				"sass/_border-radius.scss"
+			],
+			[
+				"over",
+				"sass/overflow.scss"
+			],
+			[
+				"b",
+				"border-radius.html"
+			],
+			[
+				"relat",
+				"sass/_relative.scss"
+			],
+			[
+				"z-ind",
+				"sass/_z-index.scss"
+			],
+			[
 				"style.cs",
 				"css/style.css"
 			],
@@ -921,20 +1191,12 @@
 				"index.html"
 			],
 			[
-				"over",
-				"overflow.html"
-			],
-			[
 				"abso",
 				"sass/_absolute.scss"
 			],
 			[
 				"zind",
 				"sass/_z-index.scss"
-			],
-			[
-				"z-ind",
-				"z-index.html"
 			],
 			[
 				"z-in",
@@ -1126,7 +1388,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 231.0,
 	"status_bar_visible": true
 }

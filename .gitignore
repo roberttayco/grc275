@@ -7,3 +7,9 @@
 .DS_Store
 *.md
 
+
+*.sublime-workspace
+
+portfolio/codekit-config.json
+
+codekit-config.json
