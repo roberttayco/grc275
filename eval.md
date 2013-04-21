@@ -1,5 +1,0 @@
-Doesn't inspire confidence in his knowledge of what he's teaching. Seems to have a poor understanding of design principles. Good and bad design in his eyes seems to be purely a matter of his own taste rather than actual principles of color, proportion, or composition.
-
-Assigned a WordPress assignment with an obvious lack of knowledge about WordPress. Glossed over it in 2 weeks, when learning anything about WordPress would take much longer than that for a beginner. The class watched as he poked around aimlessly in the WordPress admin panel, completely clueless of what he was doing. The end result: we learned nothing of substance about WordPress and wasted two weeks.
-
-He was always asking a student questions that he really should know. I don't know how anybody learns much of anything in the class. 
