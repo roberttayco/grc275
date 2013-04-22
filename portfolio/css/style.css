@@ -190,6 +190,25 @@ table {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  color: #444;
+  font-family: "lora", georgia, serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+a {
+  border-bottom: 1px dotted;
+  color: #f05032;
+  padding-bottom: .2em;
+  text-decoration: none;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "merriweather", georgia, serif;
   font-weight: bold;
@@ -243,19 +262,32 @@ p {
   font-size: 1.4em;
 }
 
-.btn-primary {
-  background: #f05032;
+.btn {
+  background: #45545f;
+  border: 0;
   color: #fff;
   display: inline-block;
   font-family: "merriweather", georgia, serif;
   font-size: .7em;
   font-weight: bold;
   letter-spacing: .05em;
+  line-height: 1;
+  margin: 1em 0;
   padding: 1em 1.25em;
   text-decoration: none;
   text-transform: uppercase;
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn:hover, .btn:focus {
+  background: #f05032;
+  border: 0;
+  color: #fff;
+}
+
+.btn-action {
+  background: #f05032;
+  font-size: .85em;
+}
+.btn-action:hover, .btn-action:focus {
   background: #ee3512;
 }
 
@@ -288,13 +320,6 @@ img {
 }
 .proj-details h6 {
   margin-bottom: .25em;
-}
-
-body {
-  color: #444;
-  font-family: "lora", georgia, serif;
-  font-size: 1em;
-  line-height: 1.5;
 }
 
 .test {
