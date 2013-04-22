@@ -13,3 +13,7 @@
 portfolio/codekit-config.json
 
 codekit-config.json
+
+*.sublime-project
+
+*.tif
