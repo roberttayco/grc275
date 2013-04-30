@@ -264,7 +264,6 @@ p {
 }
 
 .btn {
-  background: #45545f;
   border: 0;
   color: #fff;
   display: inline-block;
@@ -312,6 +311,10 @@ img {
   width: 100%;
 }
 
+.container {
+  margin: 0 15%;
+}
+
 .align-right {
   float: right;
 }
@@ -323,22 +326,20 @@ img {
 .masthead {
   background: #f05032;
   color: #fff;
-  padding: 2em;
+  padding: 2em 0;
   text-align: center;
 }
-.masthead h1 {
+.masthead .tagline {
+  margin: 2em 0 1em;
+}
+
+.logo {
   background: url(../img/logo-white.svg) center no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
   margin: 0 auto;
   height: 40px;
-  max-width: 250px;
-  text-align: center;
-}
-.masthead h2 {
-  font-family: "lora", georgia, serif;
-  font-weight: 200;
-  margin: 2em 0 1em;
+  max-width: 160px;
 }
 
 .proj-details {
@@ -352,6 +353,23 @@ img {
 }
 .proj-details h6 {
   margin-bottom: .25em;
+}
+
+.project {
+  position: relative;
+  width: 250px;
+}
+.project figure {
+  height: 350px;
+  overflow: hidden;
+}
+.project .meta {
+  bottom: 1em;
+  position: absolute;
+}
+.project h3 {
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* img replacement */
