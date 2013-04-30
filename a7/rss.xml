@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Robert Tayco's RSS Feed</title>
+    <link>http://www.roberttayco.com/</link>
+    <description>Home page of the greatest designer in Las Vegas, NV.</description>
+
+    <item>  
+      <title>Feeds 101</title>  
+      <link>http://www.net.tutsplus.com</link>  
+      <description>Let's create an RSS feed from scratch!</description>  
+      <author>Robert Tayco</author>  
+    </item> 
+
+    <item>  
+      <title>Feeds 101</title>  
+      <link>http://www.net.tutsplus.com</link>  
+      <description>Let's create an RSS feed from scratch!</description>  
+      <author>Robert Tayco</author>  
+    </item> 
+
+    <item>  
+      <title>Feeds 101</title>  
+      <link>http://www.net.tutsplus.com</link>  
+      <description>Let's create an RSS feed from scratch!</description>  
+      <author>Robert Tayco</author>  
+    </item> 
+
+    <item>  
+      <title>Feeds 101</title>  
+      <link>http://www.net.tutsplus.com</link>  
+      <description>Let's create an RSS feed from scratch!</description>  
+      <author>Robert Tayco</author>  
+    </item> 
+
+    <item> 
+      <title>News event 1 of today</title>
+      <link>http://www.polygon.com</link>
+      <description>All your gaming news.</description>
+    </item> 
+
+    <item>
+      <title> News event 2 of today </title>
+      <link>http://www.theverge.com</link>
+      <description>All your tech news.</description>
+    </item>
+
+  </channel>
+</rss>
+
+
+
