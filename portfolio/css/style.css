@@ -210,6 +210,12 @@ a:hover {
   color: #ee3512;
 }
 
+footer {
+  background: #dfe8ef;
+  margin: 0;
+  padding: 2em 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "merriweather", georgia, serif;
   font-weight: 900;
@@ -356,20 +362,35 @@ img {
 }
 
 .project {
-  position: relative;
-  width: 250px;
-}
-.project figure {
-  height: 350px;
+  background: #000;
+  border: 2px solid #f05032;
+  border-radius: 100%;
+  color: #fff;
+  font-size: .8em;
+  margin: 2em auto;
   overflow: hidden;
+  position: relative;
+  height: 240px;
+  width: 240px;
+  text-align: center;
 }
 .project .meta {
-  bottom: 1em;
+  bottom: 7em;
   position: absolute;
+  width: 100%;
 }
-.project h3 {
-  margin: 0 auto;
-  text-align: center;
+
+.link-block {
+  border: 0;
+  display: block;
+  opacity: .5;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.link-block:hover {
+  background: red;
+  border: 0;
 }
 
 /* img replacement */
