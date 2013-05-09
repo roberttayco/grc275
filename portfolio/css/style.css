@@ -264,8 +264,9 @@ img {
   width: 100%; }
 
 .container {
-  margin: 0 12%;
-  max-width: 60em; }
+  margin: 0 auto;
+  max-width: 60em;
+  padding: 0 10%; }
 
 .sidebar {
   float: left;
@@ -304,61 +305,63 @@ img {
     margin-bottom: .25em; }
 
 .project {
-  background: #000;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
   border-radius: 100%;
   color: #fff;
-  font-size: .8em;
-  margin: 2em 50px;
+  font-size: .75em;
+  margin: 2em auto;
+  opacity: .8;
   overflow: hidden;
   position: relative;
-  height: 200px;
-  width: 200px;
-  text-align: center; }
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  transition: all 0.2s; }
+  .project:hover {
+    background-position: center 80%;
+    border: 0;
+    opacity: 1; }
   .project .meta {
     bottom: 7em;
     position: absolute;
     width: 100%; }
-
-.proj-cat {
-  -webkit-background-size: cover;
-  background-size: cover;
-  border-radius: 100%;
-  font-size: .75em;
-  margin: 2em auto;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  height: 220px;
-  width: 220px; }
-  .proj-cat.web-design {
-    background: url(../img/vbb001-sm.jpg) center no-repeat; }
-  .proj-cat.graphic-design {
-    background: url(../img/unbridled-sm.jpg) center no-repeat; }
-  .proj-cat.artwork {
-    background: url(../img/old-asian-man.jpg) center no-repeat; }
-  .proj-cat a {
-    border: 0;
-    color: inherit; }
-  .proj-cat h3 {
-    background: #45545f;
-    bottom: 20%;
+  .project h3 {
+    bottom: 30%;
     color: #fff;
     overflow: hidden;
     padding: 0.4em 1em;
     position: absolute;
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px 0 black;
     width: 100%; }
+  .project img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden; }
+
+.web-design {
+  background: url(../img/vbb001-sm.jpg) center no-repeat; }
+
+.graphic-design {
+  background: url(../img/unbridled-sm.jpg) center no-repeat; }
+
+.artwork {
+  background: url(../img/old-asian-man.jpg) center no-repeat; }
 
 .link-block {
-  background: #dfe8ef;
   border: 0;
   border-radius: 100%;
   display: block;
+  overflow: hidden;
   opacity: .5;
   height: 100%; }
   .link-block:hover {
     background: #f05032;
     border: 0;
-    opacity: .85; }
+    overflow: hidden;
+    opacity: .65; }
 
 /* img replacement */
 .ir {
