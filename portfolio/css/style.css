@@ -229,6 +229,7 @@ input, textarea {
   margin-bottom: 1em;
   padding: 1em 0.5em;
   width: 100%;
+  max-width: 100%;
   -webkit-appearance: none;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -267,6 +268,9 @@ footer {
   font-size: .7em;
   margin: 0;
   padding: 2em 2em 1em;
+}
+footer a {
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -374,6 +378,10 @@ p {
   background: #45545f;
 }
 
+.disabled {
+  color: #d4dbe0 !important;
+}
+
 img {
   border: 0;
   display: block;
@@ -388,6 +396,12 @@ img {
   margin-bottom: 1.5em;
   overflow: hidden;
   width: 100%;
+}
+
+.feature {
+  border: 3px double #d4dbe0;
+  margin-bottom: 2em;
+  padding: .5em;
 }
 
 .container, .main-content {
@@ -444,6 +458,11 @@ img {
   margin-left: 0;
 }
 
+.project-page #top-nav ul {
+  border: 0;
+  float: right;
+}
+
 .masthead {
   padding: 4% 10%;
   text-align: center;
@@ -469,6 +488,7 @@ img {
   color: #fff;
   padding: 2em;
   text-align: center;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 @media screen and (min-width: 1024px) {
@@ -510,27 +530,37 @@ img {
 }
 
 .proj-details {
-  border-right: 1px solid #dddddd;
+  border-top: 1px solid #d4dbe0;
+  border-bottom: 1px solid #d4dbe0;
   font-size: .75em;
-  padding: 1em 1em 1em 0;
-  width: 180px;
-}
-.proj-details.align-left {
-  margin-right: 2em;
+  margin-bottom: 1.5em;
+  padding: 1.5em 0 0.25em;
+  width: 100%;
 }
 .proj-details h6 {
   margin-bottom: .25em;
 }
+@media screen and (min-width: 768px) {
+  .proj-details {
+    border: 0;
+    border-right: 1px solid #d4dbe0;
+    float: left;
+    margin-right: 2em;
+    padding-right: 1em;
+    width: 12em;
+  }
+}
 
 .project {
-  background: #45545f;
-  border: 1px solid #d4dbe0;
-  color: #fff;
+  background: #fff;
+  color: #45545f;
   margin: 2em 0;
+  overflow: hidden;
   text-align: center;
-  padding-bottom: 2.5em;
-  height: 12em;
+  height: 10em;
   width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .project a {
   border: 0;
@@ -540,32 +570,112 @@ img {
   border: 0;
 }
 .project img {
-  position: relative;
-  top: 0;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
   width: 100%;
 }
-.project img:hover {
-  top: -1em;
-  opacity: .6;
-}
-.project h3 {
-  font-size: .8em;
-  padding: 1em;
-  text-transform: uppercase;
+@media screen and (min-width: 480px) {
+  .project {
+    height: 11em;
+  }
 }
 @media screen and (min-width: 600px) {
   .project {
     float: left;
     height: 12em;
-    width: 29.333%;
     margin: 1em 2%;
+    width: 29.333%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project {
+    height: 15em;
+  }
+}
+@media screen and (min-width: 960px) {
+  .project {
+    height: 16em;
   }
 }
 
-.link-block {
+.project-cat {
+  border: 3px double #d4dbe0;
+  padding: 0.5em 0.5em 2.5em;
+}
+.project-cat h3 {
+  font-size: .8em;
+  padding: 1em 0;
+  text-transform: uppercase;
+}
+.project-cat img {
+  position: relative;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.project-cat img:hover {
+  left: -4%;
+  top: -4%;
+  opacity: .6;
+  width: 108%;
+}
+
+.project-thumb {
+  position: relative;
+}
+.project-thumb h3 {
   background: #f05032;
+  bottom: 0;
+  color: #fff;
+  font-size: 1.25em;
+  margin: 0;
+  opacity: 0;
+  padding: 5em 0.5em 1em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.project-thumb h3:hover {
+  opacity: .9;
+  padding: 3.5em 0.5em 1em;
+}
+.project-thumb img {
+  position: absolute;
+  top: 0;
+}
+
+.proj-nav {
+  background: #f1f4f5;
+  padding: 0;
+}
+.proj-nav a {
+  border: 0;
+  color: #45545f;
+}
+.proj-nav a:hover {
+  background: #f05032;
+  color: #fff;
+}
+
+.prev, .next {
+  font-size: .7em;
+  font-weight: 700;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.prev {
+  float: left;
+  text-align: right;
+}
+
+.next {
+  float: right;
+}
+
+.link-block {
   border: 0;
   display: block;
   overflow: hidden;
@@ -636,7 +746,6 @@ img {
 }
 .social a {
   border: 0;
-  color: #fff;
 }
 
 /* img replacement */
