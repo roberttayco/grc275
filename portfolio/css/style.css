@@ -452,7 +452,7 @@ img {
   border-bottom: 1px solid #f26b52;
   margin: 0.7em auto 0;
   padding: 0;
-  max-width: 280px;
+  width: 18em;
 }
 #top-nav li {
   display: inline;
@@ -465,9 +465,24 @@ img {
   margin-left: 0;
 }
 
-.project-page #top-nav ul {
-  border: 0;
-  float: right;
+.project-page #top-nav .btn {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .project-page #top-nav .logo {
+    background-position: left center;
+    display: block;
+    float: left;
+    margin: 0;
+  }
+  .project-page #top-nav ul {
+    border: 0;
+    float: right;
+    margin: 0;
+  }
+  .project-page #top-nav .btn {
+    margin: 0;
+  }
 }
 
 .masthead {
