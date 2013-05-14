@@ -368,6 +368,13 @@ p {
   color: #f05032;
 }
 
+.btn-return {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+}
+
 .btn-masthead {
   background: #fff;
   color: #f05032;
@@ -740,12 +747,47 @@ img {
 .social li {
   display: inline-block;
   margin-left: .5em;
+  height: 32px;
+  width: 32px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.social li:hover {
+  background: #f05032;
 }
 .social li:first-child {
   margin-left: 0;
 }
 .social a {
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
   border: 0;
+}
+
+.fb, .tw, .gh, .gplus {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.fb {
+  background: url(../img/social-icons.png) 0 0 no-repeat;
+}
+
+.tw {
+  background: url(../img/social-icons.png) -32px 0 no-repeat;
+}
+
+.gh {
+  background: url(../img/social-icons.png) -64px 0 no-repeat;
+}
+
+.gplus {
+  background: url(../img/social-icons.png) -96px 0 no-repeat;
+}
+
+.copyright {
+  margin: 1em 0;
 }
 
 /* img replacement */
