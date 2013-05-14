@@ -273,6 +273,13 @@ footer a {
   color: #fff;
 }
 
+.notice {
+  background: #fefacb;
+  font-size: .75em;
+  padding: 1em 0 0.1em;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "merriweather", georgia, serif;
   font-weight: 900;
